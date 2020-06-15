@@ -1,11 +1,13 @@
 {
   "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "package": "tfar.survivalcommandblock.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "CommandBlockMixin",
+    "ServerPlayNetHandlerMixin",
+    "CommandBlockItemMixin"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

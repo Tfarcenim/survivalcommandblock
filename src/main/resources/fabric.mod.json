@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "survivalcommandblock",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -18,11 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "tfar.example.ExampleMod"
+      "tfar.survivalcommandblock.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "survivalcommandblock.mixins.json"
   ],
 
   "depends": {
